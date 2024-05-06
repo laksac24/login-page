@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | User</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="register" method="post">
+        <div class="heading">
+          <h1>Sign UP</h1>
+        </div>
+        <div class="details">
+          <input type="text" placeholder="Enter your First Name" required />
+        </div>
+        <div class="details">
+          <input type="text" placeholder="Enter your Last Name" />
+        </div>
+        <div class="details">
+          <input type="email" placeholder="Enter your email" required />
+        </div>
+        <div class="details">
+          <input type="number" placeholder="Enter your Age" required />
+        </div>
+        <div class="details">
+          <input type="date" placeholder="DOB (Date Of Birth):" required />
+        </div>
+
+        <div class="gender">
+          <label for="">Select Your Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" />
+
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+        </div>
+
+        <button type="submit" class="btn">
+          <a href="register.html">Continue</a>
+        </button>
+        <div class="login-link">
+          <p>Already have an account? <a href="#">Login</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
